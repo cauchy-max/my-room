@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T05:37:14.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="qulmd-2oS53YXb5tJnfR" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-30T06:52:06.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="nUWF-hUrXnU6-HBMFguH" version="15.8.7" type="github">
   <diagram id="0CHjNquSasWgKabh0Vih" name="Page-1">
     <mxGraphModel dx="1052" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,10 @@
         <mxCell id="QEHSe6bJhqSmYVW9SqZu-45" value="有内容" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="510" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QEHSe6bJhqSmYVW9SqZu-47" value="执行语义动作" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QEHSe6bJhqSmYVW9SqZu-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEHSe6bJhqSmYVW9SqZu-47" target="QEHSe6bJhqSmYVW9SqZu-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QEHSe6bJhqSmYVW9SqZu-47" value="执行动作" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QEHSe6bJhqSmYVW9SqZu-49" value="有但不是acc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -81,17 +84,6 @@
         <mxCell id="QEHSe6bJhqSmYVW9SqZu-56" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QEHSe6bJhqSmYVW9SqZu-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QEHSe6bJhqSmYVW9SqZu-47">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="640" as="sourcePoint" />
-            <mxPoint x="345" y="200" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="345" y="840" />
-              <mxPoint x="80" y="840" />
-              <mxPoint x="80" y="200" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QEHSe6bJhqSmYVW9SqZu-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QEHSe6bJhqSmYVW9SqZu-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="340" as="sourcePoint" />
@@ -104,6 +96,42 @@
         </mxCell>
         <mxCell id="QEHSe6bJhqSmYVW9SqZu-60" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QEHSe6bJhqSmYVW9SqZu-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEHSe6bJhqSmYVW9SqZu-61" target="QEHSe6bJhqSmYVW9SqZu-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QEHSe6bJhqSmYVW9SqZu-61" value="是否为归约动作" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="730" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QEHSe6bJhqSmYVW9SqZu-63" value="按照对应语句的语义规则实行语义动作" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEHSe6bJhqSmYVW9SqZu-65" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="810" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QEHSe6bJhqSmYVW9SqZu-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QEHSe6bJhqSmYVW9SqZu-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="950" as="sourcePoint" />
+            <mxPoint x="350" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="970" />
+              <mxPoint x="100" y="970" />
+              <mxPoint x="100" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QEHSe6bJhqSmYVW9SqZu-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QEHSe6bJhqSmYVW9SqZu-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="930" as="sourcePoint" />
+            <mxPoint x="345" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="770" />
+              <mxPoint x="430" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QEHSe6bJhqSmYVW9SqZu-68" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="740" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
