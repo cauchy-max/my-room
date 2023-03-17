@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T03:42:09.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="UpEiAPpj5sd3fZ8xLJ8e" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T04:42:41.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="QV520sUCamfG5oJsdyLL" version="21.0.6" type="github">
   <diagram id="J_zzAJW1T4UM0eLInjSg" name="第 1 页">
     <mxGraphModel dx="1064" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,18 +206,33 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uT5n3rCxLbPBWOscTRGd-67" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="380" as="sourcePoint" />
             <mxPoint x="590" y="80" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="500" y="380" />
+              <mxPoint x="500" y="425" />
               <mxPoint x="500" y="80" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uT5n3rCxLbPBWOscTRGd-68" value="利用源域数据训练" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="440" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-70" value="训练完成后可以直接利用目标域数据测试" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="725" y="410" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-71" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="430" as="sourcePoint" />
+            <mxPoint x="550" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-72" value="横向对比分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="374" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-73" value="未来方向&lt;br&gt;方法改进：知识蒸馏，Deep Coral&lt;br&gt;模型改进：Resnet，Densenet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="450" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
