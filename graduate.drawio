@@ -1,1 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T16:04:29.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.5.3" etag="yr3ciYiz9F1BcJwx3xj6" type="github"><diagram id="J_zzAJW1T4UM0eLInjSg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-17T02:58:12.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="QE6MyrZf3q2Y2HIG4NIB" version="21.0.6" type="github">
+  <diagram id="J_zzAJW1T4UM0eLInjSg" name="第 1 页">
+    <mxGraphModel dx="1064" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-1" target="uT5n3rCxLbPBWOscTRGd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-1" value="输入" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-2" target="uT5n3rCxLbPBWOscTRGd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-2" value="流量数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="50" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-4" target="uT5n3rCxLbPBWOscTRGd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-4" value="Alexnet" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="310" as="sourcePoint" />
+            <mxPoint x="160" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="200" />
+              <mxPoint x="40" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-7" value="从头训练迭代测试" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-10" target="uT5n3rCxLbPBWOscTRGd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-10" value="输出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="250" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-12" value="流量类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-14" target="uT5n3rCxLbPBWOscTRGd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-14" value="输入" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="100" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-15" target="uT5n3rCxLbPBWOscTRGd-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-15" value="预训练好的&lt;br&gt;Alexnet主干网络" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-17" value="Imagenet&lt;br&gt;预训练" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-18" target="uT5n3rCxLbPBWOscTRGd-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-18" value="自定义输出层" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="420" as="sourcePoint" />
+            <mxPoint x="320" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="270" />
+              <mxPoint x="450" y="210" />
+              <mxPoint x="450" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-21" value="Pretrain-finetune" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="361" y="140" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-22" target="uT5n3rCxLbPBWOscTRGd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-22" value="流量数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uT5n3rCxLbPBWOscTRGd-25" target="uT5n3rCxLbPBWOscTRGd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-25" value="输出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-27" value="流量类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="360" as="sourcePoint" />
+            <mxPoint x="280" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uT5n3rCxLbPBWOscTRGd-30" value="横向对比分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
