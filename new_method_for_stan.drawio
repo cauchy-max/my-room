@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T03:34:43.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="TIgMCpKKxBS7_OXS_4Dk" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T03:04:05.054Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="PFLNrWABc6iB8h7oxyIs" version="22.0.6" type="github">
   <diagram name="第 1 页" id="cdreZZBAJ6BHFZEx-fbm">
-    <mxGraphModel dx="1454" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1236" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -869,7 +869,7 @@
             <mxPoint x="846" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jzsfIk5Gd0ql8KG-8yqJ-296" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;minimize&lt;br&gt;Wasserstein &lt;br&gt;distance&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jzsfIk5Gd0ql8KG-8yqJ-296" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;minimize&lt;br&gt;Wasserstein &lt;br&gt;distance/KL&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="836.65" y="809.93" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzsfIk5Gd0ql8KG-8yqJ-297" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jzsfIk5Gd0ql8KG-8yqJ-168">
