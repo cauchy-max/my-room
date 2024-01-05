@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T09:41:29.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DrILPkOpOzMVDL3NEYbx" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T09:51:36.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YeUTthTOGJ1u5tjrRxBR" version="22.1.16" type="github">
   <diagram name="Page-1" id="cdreZZBAJ6BHFZEx-fbm">
-    <mxGraphModel dx="4347" dy="2171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2973" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1454,7 +1454,7 @@
         <mxCell id="rBAXMSyNgJXcs4IGeej5-72" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-979.48" y="-37.299999999999955" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="rBAXMSyNgJXcs4IGeej5-76" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;minimize &lt;br&gt;MK-MMD&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="rBAXMSyNgJXcs4IGeej5-76" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Minimize &lt;br&gt;MK-MMD&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1092.48" y="-168.93" width="62" height="38.93" as="geometry" />
         </mxCell>
         <mxCell id="rBAXMSyNgJXcs4IGeej5-77" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
@@ -1566,13 +1566,13 @@
             <mxPoint x="-1239.61" y="-65.89999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rBAXMSyNgJXcs4IGeej5-107" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Pearson correlation coefficient&lt;br&gt;tends to 1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-842.8200000000002" y="-187.75000000000003" width="62.34" height="70" as="geometry" />
+        <mxCell id="rBAXMSyNgJXcs4IGeej5-107" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Minimize differences of two probability density distributions&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-910" y="-184" width="121.88" height="64" as="geometry" />
         </mxCell>
         <mxCell id="rBAXMSyNgJXcs4IGeej5-108" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-850.48" y="-107.75" as="sourcePoint" />
-            <mxPoint x="-850.48" y="-197.75000000000003" as="targetPoint" />
+            <mxPoint x="-787.82" y="-107" as="sourcePoint" />
+            <mxPoint x="-787.82" y="-197.00000000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rBAXMSyNgJXcs4IGeej5-111" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
